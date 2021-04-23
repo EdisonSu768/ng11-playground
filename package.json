@@ -2,7 +2,10 @@
   "name": "ng11-playground",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:EdisonSu768/ng11-playground.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/EdisonSu768/ng11-playground.git"
+  },
   "author": "Zhenggang Su <zgsu@alauda.io>",
   "license": "MIT",
   "scripts": {
@@ -42,5 +45,10 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.1.5"
-  }
+  },
+  "description": "angular 11.2.7",
+  "bugs": {
+    "url": "https://github.com/EdisonSu768/ng11-playground/issues"
+  },
+  "homepage": "https://github.com/EdisonSu768/ng11-playground#readme"
 }
